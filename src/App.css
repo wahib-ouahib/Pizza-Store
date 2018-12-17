@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates');
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
 
 .App {
   text-align: center;
@@ -13,21 +14,29 @@
   padding: 2rem;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
+  background-color: #f0f8ff88;
 }
 
 .img:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 16px 16px 0 rgba(0,0,0,0.2);
 }
 
 h1{
   font-family: 'Montserrat Alternates', sans-serif;
   font-size: 60px;
-  color: aliceblue;
-  background-color: rgba(64, 64, 150, 0.918);
-  padding: 4rem;
+  color: rgb(184, 77, 58);
+  background-color: rgba(243, 236, 208, 0.829);
+  padding: 30px;
 }
 
 h2{
-  font-family: 'Montserrat Alternates', sans-serif;
+  font-family: 'Satisfy', cursive;
+  padding: 10px;
+  margin: 10px;
+  font-size: 36px;
 
+}
+
+.App{
+  background-image: url('./assets/bg.jpg')
 }
